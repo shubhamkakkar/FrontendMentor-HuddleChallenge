@@ -1,0 +1,32 @@
+@media only screen and (max-width: 600px) {
+  .imgGridDefault {
+    order: 0;
+    text-align: center;
+  }
+  .imgGridRearrange {
+    order: 0;
+    text-align: center;
+  }
+  .imgWidth {
+    width: 100%;
+  }
+  .textCenterGridServiceContent {
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .imgGridDefault {
+    order: 2;
+    text-align: right;
+  }
+  .imgGridRearrange {
+    order: -2;
+    text-align: left;
+  }
+  .imgWidth {
+    width: 75%;
+  }
+  .textCenterGridServiceContent {
+    text-align: left;
+  }
+}
